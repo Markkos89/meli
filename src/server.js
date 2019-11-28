@@ -79,7 +79,10 @@ app.get('/:short_id', (req, res) => {
         .then(doc => {
             if (doc === null) return res.send('We could not find a link at that URL');
 
-            res.redirect(doc.original_url)
+            res.json({
+                original_url: doc.original_url,
+                short_id: doc.short_id,
+            });
         })
         .catch(console.error);
 });
