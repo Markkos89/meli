@@ -85,7 +85,7 @@ app.get('/:short_id', (req, res) => {
 });
 
 
-app.set('port', process.env.PORT || 4100);
+app.set('port', process.env.PORT || 3000);
 const server = app.listen(app.get('port'), () => {
     console.log(`Express running → PORT ${server.address().port}`);
 });
