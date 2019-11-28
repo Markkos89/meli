@@ -1,19 +1,10 @@
-/* ==========================================================================
-   #URL SHORTENER STYLES
-   ========================================================================== */
-
-/**
- *
- * Inheriting box sizing slightly better best-practice
- * https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
- *
- */
-
 html {
   box-sizing: border-box;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
   margin: 0;
   padding: 0;
@@ -23,24 +14,25 @@ html {
    ========================================================================== */
 
 :root {
-  --blue: #46ACCA;
-  --brown: #D49667;
+  --blue: #46acca;
+  --brown: #d49667;
   --red: #980100;
 }
-
 
 /* Body
    ========================================================================== */
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   line-height: 1.4;
 }
 
 /* Top Section
    ========================================================================== */
 
-.form-section, .result-section {
+.form-section,
+.result-section {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -84,7 +76,7 @@ body {
   border: 1px solid var(--red);
   background-color: var(--red);
   color: white;
-  box-shadow: 0 1px 1px rgba(0,0,0,.04);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
   border-radius: 5px;
   text-transform: uppercase;
   cursor: pointer;
