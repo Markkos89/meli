@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/Markkos89/meli.git"
   },
   "keywords": [
     "url shortener",
