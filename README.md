@@ -12,7 +12,8 @@
   - [Express](https://expressjs.com/)- Nodejs framework for building the REST API
   - [Mongodb](http://mongodb.com/)- Document oriented NoSQL database
   - [Mongoose](https://http://mongoosejs.com)- MongoDB object modeling tool
-
+  - [nanoid](https://www.npmjs.com/package/nanoid)- A tiny, secure, URL-friendly, unique string ID generator for JavaScript.
+  
 ## Getting Started
 
 #### Clone the project
