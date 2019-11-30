@@ -1,5 +1,5 @@
 const dns = require('dns');
-const { checkIfShortIdExists, shortenURL } = require('../models/mUrls')
+const { checkIfShortIdExists, shortenURL } = require('./mUrls')
 
 module.exports.postNew = (req, res) => {
     let originalUrl;

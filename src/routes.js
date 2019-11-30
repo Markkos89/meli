@@ -1,4 +1,4 @@
-const cUrls = require('./controllers/cUrls')
+const cUrls = require('./modules/urls/cUrls')
 
 module.exports = app => {
     app.post('/new', cUrls.postNew);
