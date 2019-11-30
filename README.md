@@ -13,10 +13,6 @@
   - [Mongodb](http://mongodb.com/)- Document oriented NoSQL database
   - [Mongoose](https://http://mongoosejs.com)- MongoDB object modeling tool
 
-- ### Front end
-
-  - an index html file and Jquery
-
 ## Getting Started
 
 #### Clone the project
